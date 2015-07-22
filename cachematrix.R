@@ -1,7 +1,6 @@
 ## This script enables creation of a matrix, the inverse of which can be calculated and 
 ## cached
 
-
 ## Assigns a supplied matrix to get() and caches an externally defined/computed
 ## inverse in setinverse() 
 makeCacheMatrix <- function(a = matrix()) {
